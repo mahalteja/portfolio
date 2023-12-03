@@ -10,7 +10,7 @@ const HeroSection = () => {
   },[])
   return (
     <div className="hero">
-      <div className="hero-left" data-aos='fade-right'>
+      <div className="hero-left" data-aos="fade-right">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="478"
@@ -40,8 +40,8 @@ const HeroSection = () => {
         </svg>
         <img src={Profile} alt="" class="sc-idiyUo ikZshl" />
       </div>
-      <div className="hero-right">
-        <div className="hero-right-heading" data-aos="fade-left">
+      <div className="hero-right" data-aos="fade-left">
+        <div className="hero-right-heading" >
           <h1>Hi, I am</h1>
           <h2>Mahal Teja</h2>
           <h3>I am UI UX Designer</h3>
@@ -52,7 +52,7 @@ const HeroSection = () => {
           high-quality results. With a positive attitude and a growth mindset, I
           am ready to make a meaningful contribution and achieve great things.
         </p>
-        <button data-aos="fade-left">Check Resume</button>
+        <button >Check Resume</button>
       </div>
     </div>
   );
