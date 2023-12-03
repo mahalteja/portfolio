@@ -134,7 +134,12 @@ flex-shrink: 0;
     flex-wrap: wrap;
     margin: 0 2rem;
     align-items: center;
+    justify-content: center;
     gap: 1rem;
+  }
+  .hero-right-heading h3{
+    min-width: 600px;
+
   }
   .hero-right p{
     margin: 0 2rem;
@@ -143,6 +148,14 @@ flex-shrink: 0;
     line-height: 1.75;
   }
 }
+@media (max-width:430px){
+  .hero-right-heading h3{
+    min-width: 300px;
+    font-size: 1.75rem;
+
+  }  
+}
+
 @media (max-width:380px){
   .hero-right-heading h3{
     font-size: 1.5rem;
