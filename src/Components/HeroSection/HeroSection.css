@@ -104,6 +104,7 @@ flex-shrink: 0;
   .hero-right p{
     font-size:18px;
     max-width: 400px;
+    font-weight: normal;
   }
 }
 
@@ -131,7 +132,8 @@ flex-shrink: 0;
   }
   .hero-right p{
     margin: 0 2rem;
-    font-size: 16px;
+    font-size: 18px;
+    max-width: 700px;
   }
 }
 
