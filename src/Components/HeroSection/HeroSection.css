@@ -91,13 +91,18 @@ flex-shrink: 0;
 }
 
 .hero-right-heading h3 {
-  color: #008cff;
+  color: white;
   font-family: Poppins;
   font-size: 32px;
   font-style: normal;
-  font-weight: 400;
+  font-weight:  300;
   line-height: 0;
   margin-top: 10px;
+}
+
+.hero-right-heading h3 span{
+  color: #008cff;
+  font-weight: 500;
 }
 
 @media (max-width:1180px){
@@ -138,7 +143,11 @@ flex-shrink: 0;
     line-height: 1.75;
   }
 }
-
+@media (max-width:380px){
+  .hero-right-heading h3{
+    font-size: 1.5rem;
+  }
+}
 @media (max-width:320px){
   .hero-left img{
     transform: scale(0.7);
