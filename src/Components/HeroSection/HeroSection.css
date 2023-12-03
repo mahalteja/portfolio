@@ -18,7 +18,7 @@ flex-shrink: 0;
 .hero-left svg{
   position: absolute;
   align-items: center;
-  z-index: ;
+ 
   margin-top: -10px;
   /* filter: blur(20px); */
 }
