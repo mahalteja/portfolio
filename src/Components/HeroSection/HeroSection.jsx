@@ -6,7 +6,7 @@ import 'aos/dist/aos.css'
 
 const HeroSection = () => {
   useEffect(()=>{
-    AOS.init({duration:3000})
+    AOS.init({duration:2000})
   },[])
   return (
     <div className="hero">
@@ -40,7 +40,7 @@ const HeroSection = () => {
         </svg>
         <img src={Profile} alt="" class="sc-idiyUo ikZshl" />
       </div>
-      <div className="hero-right" data-aos="fade" >
+      <div className="hero-right" data-aos="fade-up" >
         <div className="hero-right-heading" >
           <h1>Hi, I am</h1>
           <h2>Mahal Teja</h2>
