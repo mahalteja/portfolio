@@ -100,6 +100,12 @@ flex-shrink: 0;
   margin-top: 10px;
 }
 
+@media (max-width:1024px){
+  .hero-right p{
+    font-size:18px;
+    max-width: 400px;
+  }
+}
 
 @media (max-width:768px){
   .hero{
@@ -125,6 +131,7 @@ flex-shrink: 0;
   }
   .hero-right p{
     margin: 0 2rem;
+    font-size: 16px;
   }
 }
 
