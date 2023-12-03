@@ -1,0 +1,118 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(34, 9, 49);
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+  margin: 0;
+}
+
+nav h1 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  margin-left: 5rem;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+}
+nav ul li:hover {
+  background: linear-gradient(180deg, #9e00ff 1.37%, #fff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+nav ul li {
+  list-style: none;
+  display: block;
+  padding: 0.2rem;
+  margin: 0 0.9rem;
+
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1.05rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+nav ul button {
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background: linear-gradient(180deg, #9e00ff 1.37%, #fff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-flex;
+  padding: 10px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 142px;
+  border: 2px solid #9e00ff;
+  height: 60px;
+  box-shadow: 0px 0px 20px 0px #9e00ff;
+  cursor: pointer;
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 2.25rem;
+  height: 2rem;
+}
+
+.menu span {
+  height: 0.4rem;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 0.2rem;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    display: flex;
+  }
+  nav {
+    margin-left: 0.5rem;
+    flex-direction: column;
+    align-items: start;
+    margin: 0;
+  }
+  nav h1{
+    margin-left: 1rem;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  nav ul.open {
+    display: flex;
+  }
+
+  nav ul li {
+    margin: 0.5rem;
+  }
+
+  nav ul button {
+    margin-top: 1rem;
+  }
+}
