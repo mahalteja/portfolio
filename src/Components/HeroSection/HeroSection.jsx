@@ -40,13 +40,13 @@ const HeroSection = () => {
         </svg>
         <img src={Profile} alt="" class="sc-idiyUo ikZshl" />
       </div>
-      <div className="hero-right" data-aos="fade-left">
+      <div className="hero-right" data-aos="fade" >
         <div className="hero-right-heading" >
           <h1>Hi, I am</h1>
           <h2>Mahal Teja</h2>
           <h3>I am UI UX Designer</h3>
         </div>
-        <p data-aos="fade-left">
+        <p >
           I am a motivated and versatile individual, always eager to take on new
           challenges. With a passion for learning I am dedicated to delivering
           high-quality results. With a positive attitude and a growth mindset, I
