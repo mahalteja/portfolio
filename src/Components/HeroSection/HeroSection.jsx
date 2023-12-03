@@ -1,11 +1,16 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./HeroSection.css";
 import Profile from "../Assets/Profile.png";
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const HeroSection = () => {
+  useEffect(()=>{
+    AOS.init({duration:2000})
+  },[])
   return (
     <div className="hero">
-      <div className="hero-left">
+      <div className="hero-left" data-aos='fade-right'>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="478"
@@ -36,18 +41,18 @@ const HeroSection = () => {
         <img src={Profile} alt="" class="sc-idiyUo ikZshl" />
       </div>
       <div className="hero-right">
-        <div className="hero-right-heading">
+        <div className="hero-right-heading" data-aos="fade-left">
           <h1>Hi, I am</h1>
           <h2>Mahal Teja</h2>
           <h3>I am UI UX Designer</h3>
         </div>
-        <p>
+        <p data-aos="fade-left">
           I am a motivated and versatile individual, always eager to take on new
           challenges. With a passion for learning I am dedicated to delivering
           high-quality results. With a positive attitude and a growth mindset, I
           am ready to make a meaningful contribution and achieve great things.
         </p>
-        <button>Check Resume</button>
+        <button data-aos="fade-left">Check Resume</button>
       </div>
     </div>
   );
