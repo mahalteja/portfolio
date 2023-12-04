@@ -11,7 +11,7 @@ const SkillSection = () => {
   return (
     <div className='skills'>
       <div className="skills-heading">
-        <h1 data-aos="fade-up">Skills</h1>
+        <h1 data-aos="fade">Skills</h1>
         <p data-aos="fade-up">Here are some of my skills on which I have been working on</p>
       </div>
       <div className="skills-card">
