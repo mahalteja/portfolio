@@ -1,0 +1,30 @@
+.skills{
+    margin-top: 100px;
+    row-gap: 20px;
+    padding-bottom: 50px;
+}
+
+
+.skills-heading h1 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 0.5;
+}
+.skills-heading p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@media (max-width:450px){
+    .skills-heading p{
+        font-size: 18px;
+        margin: 10px;
+    }
+}

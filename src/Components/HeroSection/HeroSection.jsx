@@ -20,7 +20,7 @@ const HeroSection = () => {
   return (
     <div className="hero">
       <div className="hero-left" data-aos="fade-right">
-        <svg
+      <svg
           xmlns="http://www.w3.org/2000/svg"
           width="478"
           height="566"

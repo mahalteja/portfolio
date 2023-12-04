@@ -1,0 +1,43 @@
+.card{
+    display: inline-flex;
+padding: 30 80px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 25px;
+border: 2px solid #9E00FF;
+max-width: 450px;
+background-color: #1b102431;
+}
+.card-heading h1{
+    color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+width: 100%;
+}
+
+.card-items{
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px 10px 20px;
+}
+
+
+@media (max-width:450px){
+    .card-heading h1{
+        font-size: 24px;
+    }
+    .card-items{
+        max-width: 250px;
+    }
+    .card{
+        max-width: 400px;
+    }
+}
