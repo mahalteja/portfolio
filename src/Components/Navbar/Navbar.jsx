@@ -18,7 +18,7 @@ const Navbar = () => {
         <li>Experince</li>
         <li>Projects</li>
         <li>Education</li>
-        <button>Github Profile</button>
+        <button onClick={()=> window.location.href="https://github.com/mahalteja"} >Github Profile</button>
       </ul>
     </nav>
   );

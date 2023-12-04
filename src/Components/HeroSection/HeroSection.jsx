@@ -6,13 +6,13 @@ import "aos/dist/aos.css";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 const HeroSection = () => {
-  const [text]= useTypewriter({
-    words: ['UI & UX Designer', 'Front End Developer'],
+  const [text] = useTypewriter({
+    words: ["UI & UX Designer", "Front End Developer"],
     loop: {},
-    typeSpeed:250,
+    typeSpeed: 250,
     // delaySpeed:0
   });
-  
+
   useEffect(() => {
     AOS.init({ duration: 2000 });
   }, []);
@@ -54,7 +54,12 @@ const HeroSection = () => {
           <h1>Hi, I am</h1>
           <h2>Mahal Teja</h2>
           <h3>
-            I am <span> { text }<Cursor/> </span>
+            I am{" "}
+            <span>
+              {" "}
+              {text}
+              <Cursor />{" "}
+            </span>
           </h3>
         </div>
         <p>
@@ -63,7 +68,14 @@ const HeroSection = () => {
           high-quality results. With a positive attitude and a growth mindset, I
           am ready to make a meaningful contribution and achieve great things.
         </p>
-        <button>Check Resume</button>
+        <button
+          onClick={() => {
+            window.location.href =
+              "https://drive.google.com/file/d/1pqfT3bZzp8e5IElIPrmYcjaUqow30w6c/view?usp=drivesdk";
+          }}
+        >
+          Check Resume
+        </button>
       </div>
     </div>
   );
