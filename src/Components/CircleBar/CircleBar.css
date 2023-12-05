@@ -1,0 +1,48 @@
+.bar{
+    display: flex;
+    gap: 0px;
+    align-items: top;
+    justify-content: center;
+    padding-top: 20px;
+    background: white;
+    height: 200px;
+   
+   
+}
+.circle1{
+    align-items: center;
+    justify-content: center;
+}
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+    
+}
+.circle h1{
+    z-index: 1;
+    /* color: white; */
+}
+
+.circle svg{
+    position: absolute;
+    
+}
+.circle1 h1{
+    /* position: absolute; */
+    
+
+}
+.line{
+    position: relative;
+    padding-top: 45px;
+    margin-left: -85px;
+    margin-right: -85px;
+}
+.line-size{
+    width: 247px;
+height: 3px;
+background-color: black;
+}

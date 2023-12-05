@@ -9,7 +9,7 @@ const SkillSection = () => {
     AOS.init({duration:2000})
   },[])
   return (
-    <div className='skills'>
+    <div className='skills' id='skills'>
       <div className="skills-heading">
         <h1 data-aos="fade">Skills</h1>
         <p data-aos="fade-up">Here are some of my skills on which I have been working on</p>

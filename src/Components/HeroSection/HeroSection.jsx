@@ -18,7 +18,7 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <div className="hero">
+    <div className="hero" id="hero">
       <div className="hero-left" data-aos="fade-right">
       <svg
           xmlns="http://www.w3.org/2000/svg"
