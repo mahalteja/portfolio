@@ -18,27 +18,37 @@ const Navbar = () => {
       </div>
       <ul className={menuOpen ? "open" : ""}>
         <li>
-          <Link to="hero" spy={true} smooth={true} offset={-200} duration={500}>
+          <Link to="hero" spy={true} smooth={true} offset={-400} duration={500} onClick={()=>{
+            setMenuOpen(!setMenuOpen)
+          }}>
             About
           </Link>
         </li>
         <li>
-          <Link to="skills" spy={true} smooth={true} offset={-100} duration={500}>
+          <Link to="skills" spy={true} smooth={true} offset={-100} duration={500} onClick={()=>{
+            setMenuOpen(!setMenuOpen)
+          }}>
             Skills
           </Link>
         </li>
         <li>
-          <Link to="" spy={true} smooth={true} offset={50} duration={500}>
+          <Link to="" spy={true} smooth={true} offset={50} duration={500} onClick={()=>{
+            setMenuOpen(!setMenuOpen)
+          }}>
             Experince
           </Link>
         </li>
         <li>
-          <Link to="" spy={true} smooth={true} offset={50} duration={500}>
+          <Link to="" spy={true} smooth={true} offset={50} duration={500} onClick={()=>{
+            setMenuOpen(!setMenuOpen)
+          }}>
             Projects
           </Link>
         </li>
         <li>
-          <Link to="" spy={true} smooth={true} offset={50} duration={500}>
+          <Link to="" spy={true} smooth={true} offset={50} duration={500} onClick={()=>{
+            setMenuOpen(!setMenuOpen)
+          }}>
             Education
           </Link>
         </li>
