@@ -48,7 +48,10 @@ line-height: 0;
     list-style: none;
     line-height: 0;
 }
-
+.footer-items li:hover{
+    cursor: pointer;
+    color: #8204d1;
+}
 .social-media{
     display: inline-flex;
 align-items: center;

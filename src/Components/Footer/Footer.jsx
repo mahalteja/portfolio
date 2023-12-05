@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import { footerIcons } from "../Assets/data";
+import {Link} from 'react-scroll'
 
 const Footer = () => {
     console.log(footerIcons.facebook);
@@ -8,11 +9,11 @@ const Footer = () => {
     <div className="footer">
       <h1>Mahal Teja</h1>
       <ul className="footer-items">
-        <li>About</li>
-        <li>Skills</li>
-        <li>Experince</li>
-        <li>Projects</li>
-        <li>Education</li>
+        <li><Link to="hero" spy={true} smooth={true} offset={-400} duration={500} >About </Link></li>
+        <li><Link to="skills" spy={true} smooth={true} offset={-400} duration={500} >Skills</Link></li>
+        <li><Link to="" spy={true} smooth={true} offset={50} duration={500} >Experince</Link></li>
+        <li><Link to="" spy={true} smooth={true} offset={50} duration={500} >Projects</Link></li>
+        <li><Link to="" spy={true} smooth={true} offset={50} duration={500} >Education</Link></li>
       </ul>
       <ul className="social-media">
         <li>{footerIcons.facebook}</li>
