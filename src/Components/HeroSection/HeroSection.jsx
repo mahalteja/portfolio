@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./HeroSection.css";
-import Profile from "../Assets/Profile 2.png";
+import Profile from "../Assets/Profile.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useTypewriter, Cursor } from "react-simple-typewriter";

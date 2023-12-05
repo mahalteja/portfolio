@@ -12,8 +12,8 @@ const SkillsCard = () => {
     AOS.init({ duration: 2000 });
   }, []);
   return (
-    <div className="cards" data-aos="fade-up">
-      <div id="card">
+    <div className="cards" >
+      <div id="card" data-aos="fade-up">
         <div id="card-heading">
           <h1>{ui.nam}</h1>
         </div>
@@ -23,7 +23,7 @@ const SkillsCard = () => {
           })}
         </div>
       </div>
-      <div id="card">
+      <div id="card" data-aos="fade-up">
         <div id="card-heading">
           <h1>{frontend.nam}</h1>
         </div>
@@ -33,7 +33,7 @@ const SkillsCard = () => {
           })}
         </div>
       </div>
-      <div id="card">
+      <div id="card" data-aos="fade-up">
         <div id="card-heading">
           <h1>{others.nam}</h1>
         </div>
