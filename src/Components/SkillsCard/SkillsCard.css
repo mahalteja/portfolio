@@ -1,4 +1,12 @@
-.card{
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+#card{
     display: inline-flex;
 padding: 30 80px;
 flex-direction: column;
@@ -9,7 +17,7 @@ border: 2px solid #9E00FF;
 max-width: 450px;
 background-color: #1b102431;
 }
-.card-heading h1{
+#card-heading h1{
     color: #FFF;
 text-align: center;
 font-family: Poppins;
@@ -20,7 +28,7 @@ line-height: normal;
 width: 100%;
 }
 
-.card-items{
+#card-items{
     width: 400px;
     display: flex;
     flex-wrap: wrap;
@@ -31,13 +39,13 @@ width: 100%;
 
 
 @media (max-width:450px){
-    .card-heading h1{
+    #card-heading h1{
         font-size: 24px;
     }
-    .card-items{
+    #card-items{
         max-width: 250px;
     }
-    .card{
+    #card{
         max-width: 400px;
     }
 }
