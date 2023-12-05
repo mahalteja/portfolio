@@ -25,14 +25,14 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="skills" spy={true} smooth={true} offset={-100} duration={500} onClick={()=>{
+          <Link to="skills" spy={true} smooth={true} offset={-400} duration={500} onClick={()=>{
             setMenuOpen(!setMenuOpen)
           }}>
             Skills
           </Link>
         </li>
         <li>
-          <Link to="" spy={true} smooth={true} offset={50} duration={500} onClick={()=>{
+          <Link to="" spy={true} smooth={true} offset={300} duration={500} onClick={()=>{
             setMenuOpen(!setMenuOpen)
           }}>
             Experince
