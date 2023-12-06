@@ -11,7 +11,7 @@ const Footer = () => {
       <ul className="footer-items">
         <li><Link to="hero" spy={true} smooth={true} offset={-400} duration={500} >About </Link></li>
         <li><Link to="skills" spy={true} smooth={true} offset={-400} duration={500} >Skills</Link></li>
-        <li><Link to="experience" spy={true} smooth={true} offset={-100} duration={500} >Experince</Link></li>
+        <li><Link to="experience" spy={true} smooth={true} offset={-100} duration={500} >Experience</Link></li>
         <li><Link to="" spy={true} smooth={true} offset={50} duration={500} >Projects</Link></li>
         <li><Link to="" spy={true} smooth={true} offset={50} duration={500} >Education</Link></li>
       </ul>
