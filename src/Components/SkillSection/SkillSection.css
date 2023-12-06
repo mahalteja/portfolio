@@ -3,7 +3,7 @@
     row-gap: 20px;
     padding-top: 20px;
     padding-bottom: 50px;
-    background: rgba(141, 37, 201, 0.174);
+    background: rgba(70, 18, 101, 0.174);
 }
 
 
@@ -28,5 +28,8 @@
     .skills-heading p{
         font-size: 18px;
         margin: 10px;
+    }
+    .skills-heading h1{
+      font-size: 36px;
     }
 }

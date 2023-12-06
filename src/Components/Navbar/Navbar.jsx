@@ -32,10 +32,10 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="" spy={true} smooth={true} offset={300} duration={500} onClick={()=>{
+          <Link to="experience" spy={true} smooth={true} offset={-450} duration={500} onClick={()=>{
             setMenuOpen(!setMenuOpen)
           }}>
-            Experince
+            Experience
           </Link>
         </li>
         <li>
