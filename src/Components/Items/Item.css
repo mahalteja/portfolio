@@ -4,7 +4,8 @@ padding:0 20px;
 align-items: center;
 gap: 15px;
 border-radius: 15px;
-border: 1px solid #9E00FF;
+/* border: 1px solid #9E00FF; */
+background: linear-gradient(0deg, rgba(116, 1, 187, 0.393) -1.22%, #06048000 100.78%);
 margin: 10px;
 }
 .items svg{
