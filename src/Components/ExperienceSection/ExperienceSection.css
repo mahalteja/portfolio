@@ -138,6 +138,7 @@ height: 60px;
     }
     .experience-p{
         font-size: 18px;
+        line-height: normal;
     }
 }
 @media (max-width:380px){
