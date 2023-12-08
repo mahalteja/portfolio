@@ -14,7 +14,7 @@ const ExperienceSection = () => {
   return (
     <div className='experience' id='experience'>
         <h1 data-aos="fade">Experience</h1>
-        <p className='experience-p' data-aos="fade-up">My work experience as a software engineer and working on different companies and projects.</p>
+        <p className='experience-p' data-aos="fade-up">My Experience as UI UX Designer in different Organisations and Projects</p>
       <div className="experience-section">
             <div className="experience-left">
                 {circle}
@@ -28,6 +28,7 @@ const ExperienceSection = () => {
                         <div>{xros_logo}</div>
                         <h2>XROS FELLOWSHIP</h2>
                         <p className='subheading'>xrosfellowship.ficci.in | April 2023–July 2023</p>
+                        <hr />
                     </div>
                     <p id="xros-fellowship-p">I worked as the UI/UX designer at the Hacedor company. The XROS Fellowship Programme is a uniquely curated initiative aimed at supporting Indian developers working on XR technologies by providing fellowships, which will include a stipend and mentoring by industry experts. As part of the programme, I was recruited as an UI/UX designer at the Hacedor company. In the project, we designed an interactive website and platform for 3D clothing customization.</p>
                     <p id="xros-fellowship-p">Tools used: • Figma • Adobe Photoshop • Adobe Illustrator • Google Slides </p>
@@ -37,6 +38,7 @@ const ExperienceSection = () => {
                         <img src={Thub_logo} alt="" />
                         <h2>UI & UX DESIGN INTERN & TRAINEE</h2>
                         <p className='subheading'>Technical Hub Pvt. Ltd. | Aug 2022 - Jan 2023</p>
+                        <hr />
                     </div>
                     <p id="xros-fellowship-p">Learned Ui Ux Design, Frontend Development and completed <br/>Certification from Adobe on Visual Design.</p>
                     <p id="xros-fellowship-p">Skills Learned: • Figma • Adobe Photoshop • Adobe Illustrator • HTML • CSS • JavaScript </p>
