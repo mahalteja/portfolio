@@ -39,7 +39,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="" spy={true} smooth={true} offset={50} duration={500} onClick={()=>{
+          <Link to="projects" spy={true} smooth={true} offset={-400} duration={500} onClick={()=>{
             setMenuOpen(!setMenuOpen)
           }}>
             Projects
