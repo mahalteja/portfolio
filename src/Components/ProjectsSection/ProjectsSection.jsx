@@ -1,23 +1,31 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./ProjectsSection.css";
 import Profile_1 from "../Assets/Projects_1.png";
 import Profile_2 from "../Assets/Projects_2.png";
 import Profile_3 from "../Assets/Projects_3.png";
 import Profile_4 from "../Assets/Projects_4.png";
+import AOS from "aos"
+import "aos/dist/aos.css"
+
 
 const ProjectsSection = () => {
+    useEffect(()=>{
+        AOS.init({duration:2000})
+    },[])
+
+
   const [cardClicked, setCardClicked] = useState(false);
   return (
     <div className="projects" id="projects">
       <div className="projects-heading">
-        <h1>Projects</h1>
-        <p>
+        <h1 data-aos="fade">Projects</h1>
+        <p data-aos="fade-up">
           I have worked on a wide range of projects. From web apps to android
           apps. Here are some of my projects.
         </p>
       </div>
       <div className="projects-items">
-        <div className="projects-1">
+        <div className="projects-1" data-aos="fade-up">
           <img src={Profile_1} alt="" />
           <div
             id="content"
@@ -53,7 +61,7 @@ const ProjectsSection = () => {
             </div>
           </div>
         </div>
-        <div className="projects-1">
+        <div className="projects-1" data-aos="fade-up">
         <img src={Profile_2} alt="" />
           <div
             id="content"
@@ -88,7 +96,7 @@ const ProjectsSection = () => {
             </div>
           </div>
         </div>
-        <div className="projects-1">
+        <div className="projects-1" data-aos="fade-up">
         <img src={Profile_3} alt="" />
           <div
             id="content"
@@ -122,7 +130,7 @@ const ProjectsSection = () => {
             </div>
           </div>
         </div>
-        <div className="projects-1">
+        <div className="projects-1" data-aos="fade-up">
         <img src={Profile_4} alt="" />
           <div
             id="content"
