@@ -12,7 +12,6 @@ const Home = () => {
       <SkillSection/>
       <ExperienceSection/>
       <ProjectsSection/>
-      <Education/>
       <Contact/>
     </div>
   )
