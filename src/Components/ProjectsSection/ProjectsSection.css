@@ -54,7 +54,9 @@
 
 .projects-1 img{
     transform: scale(0.8) ;
+    width: 500px;
     margin: 0px;
+    border-radius: 10px;
 }
 #content {
   display: flex;
@@ -132,7 +134,7 @@
     list-style: none;
     font-size: 12px;
     font-family: Poppins;
-    color:#9e00ff;
+    color:#ad4de8;
     font-weight: 400;
     background: #231D35;    
     /* background: linear-gradient(0deg, rgba(116, 1, 187, 0.393) -1.22%, #06048000 100.78%); */
@@ -202,6 +204,7 @@
         margin:0 20px;
     }
     .projects-1 img{
+      max-width: 320px;
         transform: scale(0.7);
     }
 }
@@ -212,6 +215,7 @@
         margin: 20px;
     }
     .projects-1 img{
+      max-width: 300px;
         transform: scale(0.65);
     }
 }

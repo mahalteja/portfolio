@@ -5,6 +5,7 @@ import "aos/dist/aos.css"
 import { circle } from '../Assets/data'
 import {xros_logo } from '../Assets/data'
 import Thub_logo from '../Assets/Thub_logo.png'
+import PrepEdge_Logo from "../Assets/PrepEdge_logo.webp"
 
 const ExperienceSection = () => {
     useEffect(()=>{
@@ -23,6 +24,16 @@ const ExperienceSection = () => {
 
             </div>
             <div className="experience-right">
+                <div className="xros-fellowship"  data-aos="fade-up">
+                    <div className="xros-heading">
+                        <img src={PrepEdge_Logo} alt="" />
+                        <h2>UI UX Design Freelancer</h2>
+                        <p className='subheading'>prepedge.co.in | December 2023–Present</p>
+                        <hr />
+                    </div>
+                    <p id="xros-fellowship-p">I worked as the UI/UX designer at the Hacedor company. The XROS Fellowship Programme is a uniquely curated initiative aimed at supporting Indian developers working on XR technologies by providing fellowships, which will include a stipend and mentoring by industry experts. As part of the programme, I was recruited as an UI/UX designer at the Hacedor company. In the project, we designed an interactive website and platform for 3D clothing customization.</p>
+                    <p id="xros-fellowship-p">Tools used: • Figma • Adobe Photoshop • Adobe Illustrator • Google Slides • Google Docs </p>
+                </div>
                 <div className="xros-fellowship"  data-aos="fade-up">
                     <div className="xros-heading">
                         <div>{xros_logo}</div>

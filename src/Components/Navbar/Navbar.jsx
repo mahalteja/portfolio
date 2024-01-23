@@ -5,7 +5,7 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
     <nav className="navbar">
-      <h1>Portfolio</h1>
+      <h1>Mahal Teja</h1>
       <div
         className="menu"
         onClick={() => {
