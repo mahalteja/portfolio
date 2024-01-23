@@ -4,7 +4,6 @@ import SkillSection from '../SkillSection/SkillSection'
 import ExperienceSection from '../ExperienceSection/ExperienceSection'
 import ProjectsSection from '../ProjectsSection/ProjectsSection'
 import Contact from '../Contact/Contact'
-import Education from '../Education/Education'
 
 const Home = () => {
   return (
